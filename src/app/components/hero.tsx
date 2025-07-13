@@ -12,7 +12,7 @@ export default function Hero() {
         <div className="max-w-md">
           <h1 className="mb-5 text-4xl  font-bold sm:text-5xl md:max-w-4xl md:text-6xl lg:text-7xl">Elevate Your Business</h1>
           <p className="mb-5 font-medium leading-relaxed tracking-wide text-gray-400">
-            Empowering your growth with smart, reliable solutions—crafted to streamline operations and drive digital success.
+            Empowering your growth with smart, reliable solutions-crafted to streamline operations and drive digital success.
           </p>
           <button className="btn btn-warning">Learn More</button>
         </div>

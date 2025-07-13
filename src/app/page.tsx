@@ -32,7 +32,6 @@ export default function Home() {
             </p>
           </div>
         </div>
-        
         <div className="card mx-10 card-xl lg:card-side shadow-sm lg:grid lg:grid-cols-2 lg:h-96 mb-8">
           {/* Make the image appear first on small screens, second on lg and up */}
           <figure className="order-1 lg:order-2">
@@ -55,7 +54,6 @@ export default function Home() {
             </p>
           </div>
         </div>
-
         <div className="card mx-10 card-xl lg:card-side shadow-sm lg:grid lg:grid-cols-2 lg:h-96 mb-8">
           <figure>
             <img
@@ -75,10 +73,39 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </section>
 
-      <section id="about-us" className="px-10 pt-8">
-        <h2 className="card-title text-4xl pt-3">About Us</h2>
+        <div id="about-us" className="divider">About Us</div>
+
+        <div className="lg:grid lg:grid-cols-2">
+          <div className="card shadow-sm">
+            <figure className="px-10 pt-10">
+              <img
+                src="https://img1.wsimg.com/isteam/ip/e0b02d97-2d61-45fc-8661-84ba6f5d4cd1/BUSINESS%2005.png/:/cr=t:5.56%25,l:0%25,w:100%25,h:88.89%25/rs=w:1200,h:600,cg:true"
+                alt=""
+                className="rounded-xl" />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title">Our Company</h2>
+              <p>Welcome to CLOUDSTEPS Information Technology Solutions - a company where innovation meets reliability. We aim to become
+                a key player in the Information Technology industry by offering tailored solutions around Microsoft Dynamics 365 Business
+                Central. Our commitment to excellence, dedication, and a unique approach to each project sets the foundation for our journey. </p>
+              <p>At CLOUDSTEPS, our goal is to craft masterpieces in digital transformation, helping your business achieve new heights of efficiency and success. </p>
+            </div>
+          </div>
+          <div className="card shadow-sm">
+            <figure className="px-10 pt-10">
+              <img
+                src="https://img1.wsimg.com/isteam/ip/e0b02d97-2d61-45fc-8661-84ba6f5d4cd1/BUSINESS%2006.png/:/cr=t:5.56%25,l:0%25,w:100%25,h:88.89%25/rs=w:1200,h:600,cg:true"
+                alt=""
+                className="rounded-xl" />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title">Our Team</h2>
+              <p>Meet the driving force behind CLOUDSTEPS—our dynamic and dedicated team. Comprising experts in the field of IT, business management, and technology, our team is passionate about delivering results. We work in synergy to bring your vision to life, blending creativity with technical expertise. At CLOUDSTEPS, you're not just a client; you're a valued partner in our journey to redefine the landscape of business solutions.</p>
+              <p>Values That Define Us: Our team embodies the values that define CLOUDSTEPS—commitment, dedication, innovation, and a focus on delivering results under any circumstance. We believe in creating an environment where our team members thrive, ensuring that the solutions we deliver exceed expectations.</p>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );

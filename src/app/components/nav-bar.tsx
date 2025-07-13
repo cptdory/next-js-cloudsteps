@@ -5,7 +5,7 @@ export default function NavBar() {
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col">
                 {/* Navbar */}
-                <div className="navbar fixed border-b border-transparent backdrop-blur transition-all duration-50 w-full z-99 border-neutral-600/40 bg-black/80">
+                <div className="px-8 navbar fixed border-b border-transparent backdrop-blur transition-all duration-50 w-full z-99 border-neutral-600/40 bg-black/80">
                     <div className="flex-none lg:hidden">
                         <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
                             <svg
