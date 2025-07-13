@@ -5,7 +5,7 @@ export default function NavBar() {
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col">
                 {/* Navbar */}
-                <div className="navbar fixed border-b border-transparent backdrop-blur transition-all duration-50 w-full z-99">
+                <div className="navbar fixed border-b border-transparent backdrop-blur transition-all duration-50 w-full z-99 border-neutral-600/40 bg-black/80">
                     <div className="flex-none lg:hidden">
                         <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
                             <svg
@@ -27,13 +27,13 @@ export default function NavBar() {
                         <img src="https://img1.wsimg.com/isteam/ip/e0b02d97-2d61-45fc-8661-84ba6f5d4cd1/blob-b59d32b.png/:/rs=w:207,h:68,cg:true,m/cr=w:207,h:68/qt=q:95" alt="" />
                     </div>
                     <div className="hidden flex-none lg:block">
-                        <ul className="menu menu-horizontal">
+                        <ul className="menu menu-horizontal font-bold">
                             {/* Navbar menu content here */}
-                            <li><Link href={"/"}>HOME</Link></li>
-                            <li><a href="#about-us">ABOUT US</a></li>
-                            <li><a>SERVICES</a></li>
-                            <li><a>PRODUCTS</a></li>
-                            <li><a>BLOGS</a></li>
+                            <li><Link href={"/"} className='hover:border-b-3 hover:border-yellow-300 hover:text-yellow-300 hover:bg-transparent bg-transparent border-b-3 border-transparent rounded-none'>Home</Link></li>
+                            <li><a href="/#about-us" className='hover:border-b-3 hover:border-yellow-300 hover:text-yellow-300 hover:bg-transparent border-b-3 border-transparent rounded-none'>About Us</a></li>
+                            <li><a className='hover:border-b-3 hover:border-yellow-300 hover:text-yellow-300 hover:bg-transparent border-b-3 border-transparent rounded-none'>Services</a></li>
+                            <li><a className='hover:border-b-3 hover:border-yellow-300 hover:text-yellow-300 hover:bg-transparent border-b-3 border-transparent rounded-none'>Products</a></li>
+                            <li><a className='hover:border-b-3 hover:border-yellow-300 hover:text-yellow-300 hover:bg-transparent border-b-3 border-transparent rounded-none'>Blogs</a></li>
                         </ul>
                     </div>
                 </div>

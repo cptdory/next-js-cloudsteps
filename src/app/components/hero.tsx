@@ -14,7 +14,7 @@ export default function Hero() {
           <p className="mb-5 font-medium leading-relaxed tracking-wide text-gray-400">
             Empowering your growth with smart, reliable solutions—crafted to streamline operations and drive digital success.
           </p>
-          <button className="btn btn-primary">Learn More</button>
+          <button className="btn btn-warning">Learn More</button>
         </div>
       </div>
     </div>
